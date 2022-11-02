@@ -1,0 +1,12 @@
+
+@keyframes symbolCell_selected-animation {
+  from {background-color: aquamarine;}
+  to {@apply bg-slate-400;}
+}
+
+.symbolCell_selected {
+  @apply bg-slate-400;
+  animation-name: symbolCell_selected-animation;
+  animation-duration: 0.5s;
+  animation-timing-function: ease-out;
+}

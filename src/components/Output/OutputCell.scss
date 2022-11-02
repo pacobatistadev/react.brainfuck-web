@@ -1,0 +1,11 @@
+
+@keyframes outputCell_changed-animation {
+  from {background-color: aquamarine;}
+  to {background-color: white;}
+}
+
+.outputCell_changing {
+  animation-name: outputCell_changed-animation;
+  animation-duration: 0.5s;
+  animation-timing-function: ease-out;
+}

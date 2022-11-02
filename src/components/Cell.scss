@@ -1,0 +1,23 @@
+
+@keyframes cell_changed-animation {
+  from {background-color: var(--cell_change-started-bg);}
+  to {background-color: var(--cell_change-ended-bg);}
+}
+
+.cell_changing {
+  animation-name: cell_changed-animation;
+  animation-duration: 0.5s;
+  animation-timing-function: ease-out;
+}
+
+.cell_selected {
+  background-color: var(--cell_change-ended-bg);
+}
+
+.cell {
+  @apply border-2;
+  @apply border-slate-200;
+  @apply rounded;
+  pointer-events: none;
+  user-select: none;
+}

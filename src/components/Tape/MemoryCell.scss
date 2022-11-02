@@ -1,0 +1,11 @@
+
+@keyframes memoryCell_changed-animation {
+  from {background-color: aquamarine;}
+  to {@apply bg-slate-400;}
+}
+
+.memoryCell_changing {
+  animation-name: memoryCell_changed-animation;
+  animation-duration: 0.5s;
+  animation-timing-function: ease-out;
+}

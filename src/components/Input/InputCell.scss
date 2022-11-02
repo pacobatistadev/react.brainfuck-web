@@ -1,0 +1,11 @@
+
+@keyframes inputCell_changed-animation {
+  from {background-color: aquamarine;}
+  to {background-color: white;}
+}
+
+.inputCell_changing {
+  animation-name: inputCell_changed-animation;
+  animation-duration: 0.5s;
+  animation-timing-function: ease-out;
+}
